@@ -1,0 +1,26 @@
+html {
+    /* 
+    #HINT: a maioria dos navegadores tem como padrão a fonte de 16px. 
+    Se formos trabalhar com rem (que leva a raiz em consideração), pra termos 16px precisariamos 
+    setar como 1rem. 32px como 2rem. Mas com o font-size: 62.5%, 16px vira 1.6rem, 32 px fica 3.2rem
+    e isso facilita.
+    Obs. Não é uma boa setar o font-size com px. Quando a fonte do navegador (pelo usuário) for mudada,
+    ela não vai acompanhar.
+    */
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #FFF;
+    font-size: 2rem;
+}
+
+.background-fixed {
+    background: url("../../imgs/background.png");
+    background-size: cover;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+}
