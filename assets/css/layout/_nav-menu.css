@@ -1,0 +1,96 @@
+.nav-menu {
+    margin-left: 3.7rem;
+}
+
+.nav-menu_item {
+    display: inline;
+    vertical-align: top;
+}
+
+.nav-menu_item.dropdown {
+    display: none;
+}
+
+.nav-menu_link,
+.nav-submenu_link {
+    color: #FFF;
+    display: inline-block;
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+
+.nav-menu_link {
+    padding: 3rem 2rem;
+}
+
+.nav-submenu_link {
+    padding: 1.6rem 2.0rem;
+}
+
+.nav-menu_link:hover .nav-menu_text::before,
+.nav-submenu_link:hover .nav-submenu_text::before  {
+    width: 100%;
+}
+
+.nav-menu_text {
+    margin-left: 1.1rem;
+    position: relative;
+}
+
+.nav-menu_text::before,
+.nav-submenu_text::before {
+    content: "";
+    height: 2px;
+    transition: width .2s;
+    width: 0;
+    position: absolute;
+    bottom: 0;
+    bottom: -1rem;
+    background: #fff;
+}
+
+.nav-submenu {
+    animation: showFade .5s;
+    background-color: #141414;
+    border: .1rem solid #393939;
+    border-radius: .5rem;
+    display: none;
+    padding: 0.4rem 0;
+    position: relative;
+    top: -2.0rem;
+}
+
+.nav-submenu_text {
+    margin-left: 1.2rem;
+    position: relative;
+}
+
+.nav-menu_item.dropdown:hover .nav-submenu {
+    display: block;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .nav-menu {
+        margin-left: 2.5rem;
+        padding-bottom: 1rem;
+    }
+    
+    .nav-menu_item.mobile-hidden,
+    .nav-menu_text {
+        display: none;
+    }
+
+    .nav-menu_item.dropdown {
+        display: inline-block;
+    }
+
+    .nav-menu_link {
+        font-size: 1.6rem;
+        padding: 2.8rem 1.6rem;
+    }
+}
+
+
+/*estudar positions, before/after e transition
