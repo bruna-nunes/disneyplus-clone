@@ -52,9 +52,13 @@
     display: none;
 }
 
-
 .user-menu:hover .show-hover,
 .user-menu:hover .user-profile_title {
+    display: block;
+}
+
+.user-menu.active .show-hover,
+.user-menu.active .user-profile_title {
     display: block;
 }
 

@@ -10,7 +10,7 @@
 <body>
     <div class="background-fixed"></div>
     <div class="wrapper">
-        <header class="header">
+        <header class="header" data-header>
             <div class="logo">
                 <a href="/" class="logo_link"></a>
             </div>
@@ -53,10 +53,10 @@
                         </a>
                     </li>
                     <li class="nav-menu_item dropdown">
-                        <a href="/" class="nav-menu_link">
+                        <a href="/" class="nav-menu_link" data-open-navsubmenu>
                             <i class="fa-solid fa-ellipsis-vertical"></i> 
                         </a>
-                        <ul class="nav-submenu">
+                        <ul class="nav-submenu" data-navsubmenu>
                             <li class="nav-submenu_item">
                                 <a href="/" class="nav-submenu_link mobile-hidden">
                                     <i class="fa-solid fa-star"></i>
@@ -78,9 +78,9 @@
                         </ul>
                     </li>
                 </ul>
-                <div class="user-menu">
+                <div class="user-menu" data-usermenu>
                     <div class="user-menu_background show-hover"></div>
-                    <div class="user-menu_current-profile">
+                    <div class="user-menu_current-profile" data-open-usermenu>
                         <div class="user-profile user-profile--reverse">
                             <img src="./assets/imgs/avatar.png" alt="Avatar de perfil" class="user-profile_avatar">
                             <span class="user-profile_title">Bruna</span>
@@ -143,5 +143,6 @@
             </nav>
         </header>  
     </div>
+    <script type="module" src="./assets/js/main.js"></script>
 </body>
 </html>
