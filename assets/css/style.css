@@ -8,5 +8,6 @@
 @import url('./layout/_user-menu.css');
 @import url('./components/_user-profile.css');
 @import url('./pages/home/_banners.css');
+@import url('./pages/home/_categories.css');
 @import url('./components/_arrow_slider.css');
 @import url('./components/_controls_slider.css');
