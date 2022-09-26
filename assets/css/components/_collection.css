@@ -67,3 +67,26 @@
 .movie-carousel .arrow-slider-right {
     right: 3.6rem;
 }
+
+@media screen and (max-width: 1024px) {
+
+    .collection {
+        padding-top: 0rem;
+    }
+    
+    .collection_title {
+        width: 85vw;
+    }
+
+    .movie-carousel_item {
+        width: calc(85vw / 2);
+    }
+
+    .movie-carousel .arrow-slider-left {
+        left: 1rem;
+    }
+    
+    .movie-carousel .arrow-slider-right {
+        right: 1rem;
+    }
+}
