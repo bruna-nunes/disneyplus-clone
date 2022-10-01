@@ -13,3 +13,7 @@
 @import url('./components/_arrow_slider.css');
 @import url('./components/_controls_slider.css');
 @import url('./components/_collection.css');
+
+body {
+    color: red;
+}
