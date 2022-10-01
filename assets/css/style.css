@@ -2,7 +2,7 @@
 @import url('./base/_reset.css');
 @import url('./base/_fonts.css');
 @import url('./base/_global.css');
-@import url('./layout/_header.css');
+@import url('disneyplus-clone/assets/css/layout/_header.css');
 @import url('./layout/_footer.css');
 @import url('./layout/_nav-menu.css');
 @import url('./components/_logo.css');
@@ -12,8 +12,5 @@
 @import url('./pages/home/_categories.css');
 @import url('./components/_arrow_slider.css');
 @import url('./components/_controls_slider.css');
-@import url('./components/_collection.css');
+@import url('/components/_collection.css');
 
-body {
-    color: red;
-}
