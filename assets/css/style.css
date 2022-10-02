@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('./base/_animations.css');
 @import url('./base/_reset.css');
 @import url('./base/_fonts.css');
@@ -14,3 +15,20 @@
 @import url('./components/_controls_slider.css');
 @import url('/components/_collection.css');
 
+=======
+@import url('./base/animations.css');
+@import url('./base/reset.css');
+@import url('./base/fonts.css');
+@import url('./base/global.css');
+@import url('./layout/header.css');
+@import url('./layout/footer.css');
+@import url('./layout/nav-menu.css');
+@import url('./components/logo.css');
+@import url('./layout/user-menu.css');
+@import url('./components/user-profile.css');
+@import url('./pages/home/banners.css');
+@import url('./pages/home/categories.css');
+@import url('./components/arrow_slider.css');
+@import url('./components/controls_slider.css');
+@import url('./components/collection.css');
+>>>>>>> develop
