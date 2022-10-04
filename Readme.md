@@ -42,4 +42,4 @@ Bruna Nunes
 
 ### 📝 Licença
 
-Este projeto esta sobe a licença [MIT](./license.txt).
+Este projeto esta sobe a licença [MIT](https://github.com/bruna-nunes/disneyplus-clone/blob/main/LICENSE).
